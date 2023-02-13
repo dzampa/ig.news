@@ -5,7 +5,7 @@
         "node": true
     },
     "extends": [
-        "airbnb",
+        "next",
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:prettier/recommended",
@@ -25,6 +25,13 @@
         "prettier"
     ],
     "rules": {
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "import/no-anonymous-default-export": "off",
+        "no-unused-vars": "off",
+        "no-undef": "off",
+        "no-case-declarations": "off",
+        "@next/next/no-img-element": "off",
+        "react/jsx-key": "off",
+        "react-hooks/exhaustive-deps": "off"
     }
 }
