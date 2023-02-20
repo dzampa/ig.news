@@ -9,7 +9,9 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "slicemachine": "start-slicemachine",
-    "test": "jest"
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "test:watch": "jest --watchAll"
   },
   "dependencies": {
     "@prismicio/client": "^6.4.1",
